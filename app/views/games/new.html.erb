@@ -1,0 +1,12 @@
+<ul class="letters">
+  <% @letters.each do |letter| %>
+  <li><%= letter %></li>
+  <% end %>
+<ul>
+
+
+<form action="/score" method="Get">
+  <input type="text" name="word"/>
+  <input type="submit"/>
+</form>
+
